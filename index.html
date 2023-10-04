@@ -1,26 +1,26 @@
-<html style="display: block;">
+<html>
 
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        td {
+            border: 1px solid;
+        }
+    </style>
 </head>
 
-<body style="background-color: white;">
+<body style="background-color: white; display: block; padding: 16px;">
     <!-- Bagian Profil -->
     <div>
-        <table>
-            <tr>
-                <td>
-                    <img src="profile-alfian.jpg" width="200px" />
-                </td>
-                <td style="justify-content: start;">
-                    <h2>Alfian Ananda Putra</h2>
-                    <p>Pelajar Sistem Informasi di Telkom University
-                        angkatan 2021. Kelahiran 2002 di Depok</p>
-                </td>
-            </tr>
-        </table>
+        <div style="display: inline-flex;">
+            <img src="profile-alfian.jpg" width="200px" />
+            <div style="padding: 8px;">
+                <h2>Alfian Ananda Putra</h2>
+                <p style="color: gray;">Pelajar Sistem Informasi di Telkom University angkatan 2021. Kelahiran 2002 di Depok, Jawa Barat.</p>
+            </div>
+        </div>
     </div>
-    <div>
+    <div style="margin-top: 40px;">
         <h2>Biodata</h2>
         <p style="text-align: justify">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
             eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
@@ -31,15 +31,27 @@
             sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
     </div>
     <div style="margin-top: 40px;">
+        <h2>Riwayat Pendidikan</h2>
         <table style="border: 1px solid;">
             <tr>
-                <td style="width: 80px;">
-                    2017-2021
+                <td style="width: 80px; text-align: center;">
+                    2017-2020
                 </td>
-                <td>
+                <td style="padding: 8px;">
                     <h3>SMA Bla Bla 123</h3>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                         eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+                        enim ad minim veniam, quis nostrud exercitation ullamco laboris
+                        nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in</p>
+                </td>
+            </tr>
+            <tr>
+                <td style="width: 80px; text-align: center;">
+                    2014-2017
+                </td>
+                <td style="padding: 8px;">
+                    <h3>SMP Bla Bla 123</h3>
+                    <p>Tempor incididunt ut labore et dolore magna aliqua. Ut
                         enim ad minim veniam, quis nostrud exercitation ullamco laboris
                         nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in</p>
                 </td>
